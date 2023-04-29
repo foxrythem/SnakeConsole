@@ -9,8 +9,6 @@ gameBoard.addSnake(snake1);
 
 var tickRate = TimeSpan.FromMilliseconds(100);
 
-//await Task.Delay(2000);
-
 Console.WriteLine("Press ESC to stop");
 await GameLoop();
 
